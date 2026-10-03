@@ -1,7 +1,5 @@
 Host github.com
     IdentityFile ~/.ssh/id_ed25519
 
-Host kd-build
-    HostName fw-build.kd.internal
-    User cvasquel
-    IdentityFile ~/.ssh/id_kd
+Host *
+    ServerAliveInterval 60
